@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "aat"
+    }
+  },
+  "defaultProject": "aat",
+  "cli": {
+    "analytics": false
+  }
 }
