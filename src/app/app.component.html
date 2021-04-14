@@ -1,7 +1,1 @@
-<ul>
-	<li *ngFor="let user of users">
-		<p>#{{ user.id }} {{ user.first_name }} {{ user.last_name }}</p>
-    <img src="{{user.avatar}}" alt="">
-    <p>{{user.email}}</p>
-	</li>
-</ul>
+<app-user-list [users]="users"></app-user-list>
